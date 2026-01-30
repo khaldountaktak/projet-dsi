@@ -1,0 +1,201 @@
+id,text,title,labels
+doc_451,Are cloud-specific information security responsibilities clearly defined between the CSP and CSC?,27017 – Shared Responsibilities,"defined responsibilities, CSP-CSC roles, cloud security, Cloud responsibilities, Documentation"
+doc_452,Is a shared responsibility model documented and communicated?,27017 – Shared Responsibilities,"Cloud responsibilities, Documentation"
+doc_453,Are cloud responsibilities included in contracts and SLAs?,27017 – Shared Responsibilities,"Cloud responsibilities, Documentation"
+doc_454,Does the organization regularly review responsibility assignments with the cloud provider?,27017 – Shared Responsibilities,"cloud security, cloud governance, change review"
+doc_455,Are gaps in shared responsibilities identified and mitigated?,27017 – Shared Responsibilities,"cloud security, governance, compliance, risk management"
+doc_456,Are cloud service descriptions reviewed to understand security obligations?,27017 – Cloud Governance,"cloud security, cloud services, security review"
+doc_457,Are responsibilities for cloud configuration documented?,27017 – Cloud Governance,"cloud responsibilities, documentation, cloud configuration, Cloud responsibilities, Documentation"
+doc_458,Does cloud governance include alignment with ISO 27001/27002 controls?,27017 – Cloud Governance,"cloud security, governance, compliance, risk management"
+doc_459,Are cloud service providers evaluated before onboarding?,27017 – Cloud Governance,"cloud services, risk evaluation, pre-adoption review, cloud onboarding, risk assessment, vendor evaluation"
+doc_460,Is cloud onboarding subject to a risk assessment?,27017 – Cloud Governance,"cloud onboarding, risk assessment, vendor evaluation"
+doc_461,"Is a cloud asset inventory maintained for virtual resources (VMs, storage, databases, APIs)?",27017 – Cloud Asset Management,"cloud governance, configuration management, change management, version control"
+doc_462,Are cloud assets tagged according to classification?,27017 – Cloud Asset Management,"cloud assets, data classification, tagging, labeling, sensitivity"
+doc_463,Are cloud assets mapped to their regions and zones?,27017 – Cloud Asset Management,cloud security
+doc_464,Are cloud resources automatically discovered through tooling?,27017 – Cloud Asset Management,"cloud security, governance, compliance, risk management"
+doc_465,Are unmanaged or shadow cloud resources identified and removed?,27017 – Cloud Asset Management,cloud security
+doc_466,Is cloud data classified and labeled according to sensitivity?,27017 – Cloud Data Management,"cloud assets, data classification, tagging, labeling, sensitivity"
+doc_467,Are cloud storage buckets configured according to data classification?,27017 – Cloud Data Management,"cloud security, cloud assets, data classification, tagging, labeling, sensitivity"
+doc_468,Is sensitive cloud data encrypted in storage?,27017 – Cloud Data Management,cloud security
+doc_469,Is cloud data encrypted during transfer?,27017 – Cloud Data Management,"data encryption, data in transit, cloud traffic, cloud data, encryption"
+doc_470,Are data residency or sovereignty requirements documented?,27017 – Cloud Data Management,"data residency, data sovereignty, documentation, risk evaluation"
+doc_471,Are cloud identity and access controls implemented based on least privilege?,27017 – Cloud Access Control,"cloud security, least privilege, access control, access controls"
+doc_472,Are IAM roles separated for administrators and users?,27017 – Cloud Access Control,"cloud security, governance, compliance, risk management"
+doc_473,Are cloud privileged access activities logged?,27017 – Cloud Access Control,cloud security
+doc_474,Is MFA enforced for all cloud console access?,27017 – Cloud Access Control,"cloud security, governance, compliance, risk management"
+doc_475,Are API access tokens protected and rotated?,27017 – Cloud Access Control,cloud security
+doc_476,Are long-lived cloud credentials avoided?,27017 – Cloud Access Control,"long-lived credentials, cloud credentials, credential management"
+doc_477,Are temporary cloud access rights automatically revoked?,27017 – Cloud Access Control,cloud security
+doc_478,Is a cloud key management policy established?,27017 – Cloud Cryptography,cloud security
+doc_479,Are key management responsibilities defined for CSP and CSC?,27017 – Cloud Cryptography,"defined responsibilities, CSP-CSC roles, cloud security"
+doc_480,Are cloud encryption keys stored in dedicated key vaults/HSMs?,27017 – Cloud Cryptography,"cloud security, governance, compliance, risk management"
+doc_481,Are keys rotated according to policy?,27017 – Cloud Cryptography,cloud security
+doc_482,Are cryptographic parameters validated against industry standards?,27017 – Cloud Cryptography,"cloud security, governance, compliance, risk management"
+doc_483,Are cloud network security groups configured based on least privilege?,27017 – Cloud Network Security,"cloud security, least privilege, access control, access controls"
+doc_484,Are firewall rules reviewed periodically?,27017 – Cloud Network Security,cloud security
+doc_485,Are cloud-native firewalls and WAFs implemented?,27017 – Cloud Network Security,"cloud security, governance, compliance, risk management"
+doc_486,Is network segmentation implemented using VPC/VNet capabilities?,27017 – Cloud Network Security,"cloud security, governance, compliance, risk management"
+doc_487,Is traffic between cloud services encrypted?,27017 – Cloud Network Security,"data encryption, data in transit, cloud traffic, cloud data, encryption"
+doc_488,Are cloud VPN tunnels monitored for anomalies?,27017 – Cloud Network Security,cloud security
+doc_489,Are cloud logs collected centrally?,27017 – Cloud Logging & Monitoring,cloud security
+doc_490,Are API logs enabled for all cloud services?,27017 – Cloud Logging & Monitoring,cloud security
+doc_491,Are cloud audit logs protected from alteration?,27017 – Cloud Logging & Monitoring,cloud security
+doc_492,Are logs integrated with SIEM/SOC monitoring tools?,27017 – Cloud Logging & Monitoring,"cloud security, governance, compliance, risk management"
+doc_493,Are anomaly detection rules applied to cloud logs?,27017 – Cloud Logging & Monitoring,cloud security
+doc_494,Is cloud logging retention aligned with compliance requirements?,27017 – Cloud Logging & Monitoring,"cloud retention, policy alignment, compliance requirements"
+doc_495,Are CSP incident reporting procedures documented?,27017 – Cloud Incident Management,"cloud security, governance, compliance, risk management"
+doc_496,Are CSC responsibilities during cloud incidents defined?,27017 – Cloud Incident Management,"Cloud responsibilities, Documentation"
+doc_497,Does the CSP commit to notifying the customer of incidents within defined SLAs?,27017 – Cloud Incident Management,"incident notification, customer notification, SLA commitments, security incidents"
+doc_498,Are cloud incidents classified using a standardized model?,27017 – Cloud Incident Management,"cloud security, governance, compliance, risk management"
+doc_499,Is cloud forensic data preserved according to legal requirements?,27017 – Cloud Incident Management,cloud security
+doc_500,Does the CSP perform root-cause analysis for major cloud incidents?,27017 – Cloud Incident Management,"incident analysis, root-cause analysis, post-incident review"
+doc_501,Are cloud service availability requirements defined in SLAs?,27017 – Cloud Continuity & Availability,"cloud service, service availability, SLAs, uptime guarantees"
+doc_502,Are redundant cloud architectures implemented (multi-zone/region)?,27017 – Cloud Continuity & Availability,cloud security
+doc_503,Are cloud recovery procedures documented?,27017 – Cloud Continuity & Availability,"Cloud responsibilities, Documentation"
+doc_504,Are cloud failover procedures tested?,27017 – Cloud Continuity & Availability,"cloud procedures, procedure testing, testing"
+doc_505,Is cloud BCP aligned with CSP disaster recovery capabilities?,27017 – Cloud Continuity & Availability,cloud security
+doc_506,Are cloud service agreements documented and approved?,27017 – Cloud Agreements,"Cloud responsibilities, Documentation"
+doc_507,Do contracts include data ownership clauses?,27017 – Cloud Agreements,"cloud security, governance, compliance, risk management"
+doc_508,Do contracts specify secure deletion of data upon termination?,27017 – Cloud Agreements,cloud security
+doc_509,Are subcontractors used by the CSP disclosed to the customer?,27017 – Cloud Agreements,"subcontractor disclosure, subprocessor disclosure, CSP transparency, third-party providers"
+doc_510,Are CSP security certifications reviewed periodically?,27017 – Cloud Agreements,cloud security
+doc_511,Does the CSP permit independent audits or provide audit reports?,27017 – Cloud Agreements,"audit reports, independent audits"
+doc_512,Are secure cloud API gateways in use?,27017 – Cloud Application Security,"cloud API gateways, API security, traffic control"
+doc_513,Are cloud applications tested for vulnerabilities?,27017 – Cloud Application Security,cloud security
+doc_514,Are software dependencies in cloud workloads monitored?,27017 – Cloud Application Security,cloud security
+doc_515,Are code repositories protected using IAM and MFA?,27017 – Cloud Application Security,"cloud security, governance, compliance, risk management"
+doc_516,Are container images scanned for vulnerabilities?,27017 – Cloud Application Security,"vulnerability scanning, container security, image scanning, pre-deployment checks"
+doc_517,Are serverless functions governed by security baselines?,27017 – Cloud Application Security,"serverless functions, security governance, least privilege, security baselines"
+doc_518,Are CSP maintenance activities communicated to the CSC?,27017 – Cloud Operations,"change communication, infrastructure updates, customer notification"
+doc_519,Are cloud configuration changes reviewed?,27017 – Cloud Operations,"configuration changes, change tracking, change review, cloud configuration, compliance monitoring, security scanning, misconfiguration detection, monitoring tools, alerting, configuration review, cloud security, governance, compliance, risk management, cloud services, risk evaluation, pre-adoption review, review process, change management, log review, security review, Cloud responsibilities, Documentation, approval workflows, policy compliance, cloud governance, configuration management, version control, security benchmarks"
+doc_520,Are automated deployment pipelines secured?,27017 – Cloud Operations,"cloud security, governance, compliance, risk management"
+doc_521,Are cloud infrastructure changes tracked using version control?,27017 – Cloud Operations,"cloud security, governance, compliance, risk management, cloud governance, configuration management, change management, version control"
+doc_522,Are patching responsibilities divided between CSP and CSC?,27017 – Cloud Operations,"patching responsibilities, responsibility division, CSP-CSC roles"
+doc_523,Are cloud monitoring tools configured to detect misconfigurations?,27017 – Cloud Operations,"cloud configuration, misconfiguration detection, monitoring tools, alerting, configuration review, cloud security"
+doc_524,Are cloud virtual machine images hardened according to baselines?,27017 – Cloud Infrastructure Security,"cloud security, virtual machines, image hardening, security baselines, hardened templates"
+doc_525,Are infrastructure-as-code templates scanned for risks?,27017 – Cloud Infrastructure Security,"cloud security, governance, compliance, risk management"
+doc_526,Are unused cloud services disabled?,27017 – Cloud Infrastructure Security,cloud security
+doc_527,Are cloud load balancers secured and monitored?,27017 – Cloud Infrastructure Security,cloud security
+doc_528,Is auto-scaling monitored for cost or security anomalies?,27017 – Cloud Infrastructure Security,cloud security
+doc_529,Are the customer’s cloud responsibilities documented during onboarding?,27017 – Cloud Customer Responsibilities,"cloud responsibilities, documentation, cloud configuration, Cloud responsibilities, Documentation"
+doc_530,Is the customer informed of CSP responsibility limitations?,27017 – Cloud Customer Responsibilities,"customer notification, CSP communications, service change communication, infrastructure changes"
+doc_531,Are customer-managed encryption keys handled securely?,27017 – Cloud Customer Responsibilities,"customer-managed keys, key management, encryption key security"
+doc_532,Does the customer maintain control of identity and access?,27017 – Cloud Customer Responsibilities,"cloud security, governance, compliance, risk management"
+doc_533,Is customer-managed logging configured properly?,27017 – Cloud Customer Responsibilities,"cloud security, governance, compliance, risk management"
+doc_534,Are CSP personnel subject to background checks?,27017 – Cloud Provider Personnel Security,"cloud security, governance, compliance, risk management"
+doc_535,Are CSP administrative accesses monitored?,27017 – Cloud Provider Personnel Security,"cloud security, governance, compliance, risk management"
+doc_536,Are CSP support engineers restricted from accessing customer data?,27017 – Cloud Provider Personnel Security,"cloud security, governance, compliance, risk management"
+doc_537,Are break-glass accounts monitored for unauthorized use?,27017 – Cloud Provider Personnel Security,"cloud security, governance, compliance, risk management"
+doc_538,Does the CSP document how deleted customer data is sanitized?,27017 – Cloud Data Deletion,"cloud security, governance, compliance, risk management"
+doc_539,Is logical deletion distinguished from secure deletion?,27017 – Cloud Data Deletion,"cloud security, governance, compliance, risk management"
+doc_540,"Does CSP deletion meet regulatory requirements (GDPR, etc.)?",27017 – Cloud Data Deletion,"cloud security, governance, compliance, risk management"
+doc_541,Are backups of deleted data handled appropriately?,27017 – Cloud Data Deletion,"cloud security, governance, compliance, risk management"
+doc_542,Is the CSP transparent about geographic locations of data storage?,27017 – Cloud Transparency,"data location transparency, data center locations, geographic data storage"
+doc_543,Does the CSP provide documentation on data flow paths?,27017 – Cloud Transparency,"documentation, cloud service provider"
+doc_544,Does the CSP provide documentation on system architecture components?,27017 – Cloud Transparency,"documentation, cloud service provider, CSP documentation, System architecture, Customer access"
+doc_545,Are customers informed about major CSP infrastructure changes?,27017 – Cloud Transparency,"customer notification, CSP communications, service change communication, infrastructure changes, change communication, infrastructure updates"
+doc_546,Are cloud configuration compliance scans performed regularly?,27017 – Continuous Compliance,"cloud configuration, compliance monitoring, security scanning, cloud security"
+doc_547,Are compliance deviations remediated promptly?,27017 – Continuous Compliance,"cloud security, governance, compliance, risk management"
+doc_548,Are compliance reports shared with internal auditors?,27017 – Continuous Compliance,"cloud security, governance, compliance, risk management"
+doc_549,Are CSP SOC 2 / ISO 27001 certificates validated annually?,27017 – Continuous Compliance,cloud security
+doc_550,Is cloud compliance documentation retained per policy?,27017 – Continuous Compliance,cloud security
+doc_551,Are cloud risk assessments conducted regularly to identify cloud-specific threats?,27017 – Cloud Risk Management,cloud security
+doc_552,Is a cloud-specific threat model developed and maintained?,27017 – Cloud Risk Management,cloud security
+doc_553,Are data residency and sovereignty risks evaluated?,27017 – Cloud Risk Management,"data residency, data sovereignty, documentation, risk evaluation"
+doc_554,Are CSP security reports included in risk evaluations?,27017 – Cloud Risk Management,cloud security
+doc_555,Is supply-chain risk assessed for third-party cloud services?,27017 – Cloud Risk Management,cloud security
+doc_556,Are multi-tenant risks evaluated before adopting cloud services?,27017 – Multi-Tenancy,"cloud services, risk evaluation, pre-adoption review"
+doc_557,Does the CSP provide documentation on tenant isolation mechanisms?,27017 – Multi-Tenancy,"Cloud responsibilities, Documentation"
+doc_558,Is tenant-to-tenant data leakage risk assessed?,27017 – Multi-Tenancy,"cloud security, governance, compliance, risk management"
+doc_559,Are multi-tenant resources monitored for cross-tenant access attempts?,27017 – Multi-Tenancy,cloud security
+doc_560,"Are shared resource vulnerabilities (CPU, RAM, storage) addressed?",27017 – Multi-Tenancy,"cloud security, governance, compliance, risk management"
+doc_561,Are virtual machines deployed using hardened templates?,27017 – Virtualization Security,"virtual machines, image hardening, security baselines, hardened templates"
+doc_562,Are hypervisor vulnerabilities reviewed and patched by the CSP?,27017 – Virtualization Security,"cloud security, governance, compliance, risk management"
+doc_563,Is VM escape risk evaluated?,27017 – Virtualization Security,"cloud security, governance, compliance, risk management"
+doc_564,Are virtual networks isolated for different workloads?,27017 – Virtualization Security,"cloud security, governance, compliance, risk management"
+doc_565,Are VM snapshots protected against unauthorized access?,27017 – Virtualization Security,"cloud security, governance, compliance, risk management"
+doc_566,Are container workloads scanned for vulnerabilities?,27017 – Container Security,"vulnerability scanning, container security, image scanning, pre-deployment checks"
+doc_567,Are container registries access-controlled?,27017 – Container Security,"cloud security, governance, compliance, risk management"
+doc_568,Are Kubernetes or orchestration clusters secured?,27017 – Container Security,"cloud security, governance, compliance, risk management"
+doc_569,Is namespace separation used for container isolation?,27017 – Container Security,"cloud security, governance, compliance, risk management"
+doc_570,"Are container secrets stored securely (e.g., vault)?",27017 – Container Security,"cloud security, governance, compliance, risk management"
+doc_571,Are serverless functions reviewed for least privilege permissions?,27017 – Serverless Security,"cloud security, governance, compliance, risk management, serverless functions, security governance, least privilege, security baselines"
+doc_572,Are serverless event triggers secured?,27017 – Serverless Security,cloud security
+doc_573,Is serverless execution monitored for anomalies?,27017 – Serverless Security,cloud security
+doc_574,Are dependencies for serverless applications scanned for vulnerabilities?,27017 – Serverless Security,"cloud security, governance, compliance, risk management"
+doc_575,Are runtime permissions restricted to minimize attack surface?,27017 – Serverless Security,"cloud security, governance, compliance, risk management"
+doc_576,Are cloud APIs protected against unauthorized access?,27017 – Cloud API Security,cloud security
+doc_577,Are cloud API gateways implemented for traffic control?,27017 – Cloud API Security,"cloud API gateways, API security, traffic control"
+doc_578,Are API rate-limiting and throttling controls applied?,27017 – Cloud API Security,cloud security
+doc_579,Are deprecated APIs identified and disabled?,27017 – Cloud API Security,"cloud security, governance, compliance, risk management"
+doc_580,Are API encryption requirements documented and enforced?,27017 – Cloud API Security,"cloud security, governance, compliance, risk management"
+doc_581,Does the CSP provide sufficient log details to support audits?,27017 – CSP Auditability,"cloud security, governance, compliance, risk management"
+doc_582,"Does the CSP provide SOC 2, ISO 27001, or equivalent audit reports?",27017 – CSP Auditability,"audit reports, independent audits"
+doc_583,Are customers allowed to perform independent audits or assessments?,27017 – CSP Auditability,"cloud security, governance, compliance, risk management"
+doc_584,Does the CSP provide transparency on underlying infrastructure controls?,27017 – CSP Auditability,"cloud security, governance, compliance, risk management"
+doc_585,Is CSP audit information updated annually?,27017 – CSP Auditability,"annual review, CSP compliance, audit updates"
+doc_586,Are procedures defined for secure cloud service onboarding?,27017 – Cloud Service Lifecycle,cloud security
+doc_587,Are cloud services reviewed before adoption for compliance impact?,27017 – Cloud Service Lifecycle,"cloud security, governance, compliance, risk management, cloud services, risk evaluation, pre-adoption review"
+doc_588,Are cloud service configurations periodically reevaluated for security?,27017 – Cloud Service Lifecycle,"cloud configuration, compliance monitoring, security scanning, cloud security"
+doc_589,Are cloud services assessed for end-of-life notices?,27017 – Cloud Service Lifecycle,cloud security
+doc_590,Are cloud service changes communicated by the CSP in a timely manner?,27017 – Cloud Service Lifecycle,"customer notification, CSP communications, service change communication, infrastructure changes"
+doc_591,Is a cloud exit plan documented?,27017 – Cloud Exit Strategy,"cloud exit plan, documentation, data extraction timelines, Cloud responsibilities, Documentation"
+doc_592,Does the exit plan define timelines for data extraction?,27017 – Cloud Exit Strategy,"cloud exit plan, documentation, data extraction timelines"
+doc_593,Are cloud data migration procedures tested?,27017 – Cloud Exit Strategy,"cloud procedures, procedure testing, testing"
+doc_594,Are tools available to export all data and metadata from the CSP?,27017 – Cloud Exit Strategy,"cloud security, governance, compliance, risk management"
+doc_595,Are responsibilities for secure data deletion after exit defined?,27017 – Cloud Exit Strategy,"cloud security, governance, compliance, risk management"
+doc_596,Are CSP security updates reviewed by the customer?,27017 – CSP Change Management,"cloud security, governance, compliance, risk management, review process"
+doc_597,Are customer configuration changes tracked through version control?,27017 – CSP Change Management,"configuration changes, change tracking, change review, cloud governance, configuration management, change management, version control"
+doc_598,Are high-risk configuration changes subjected to approval workflows?,27017 – CSP Change Management,"cloud security, governance, compliance, risk management, approval workflows, policy compliance"
+doc_599,Are IaC (Infrastructure-as-Code) changes reviewed by security staff?,27017 – CSP Change Management,"cloud security, governance, compliance, risk management"
+doc_600,Is continuous compliance scanning applied to all cloud resources?,27017 – CSP Change Management,"cloud configuration, compliance monitoring, security scanning"
+doc_601,Are CSP-provided monitoring tools configured for alerts?,27017 – Cloud Monitoring,"cloud configuration, misconfiguration detection, monitoring tools, alerting, configuration review"
+doc_602,Are customer-specific monitoring agents installed on cloud workloads?,27017 – Cloud Monitoring,cloud security
+doc_603,Are behavioral analytics used to detect cloud anomalies?,27017 – Cloud Monitoring,cloud security
+doc_604,Are cloud IAM activities monitored for unusual patterns?,27017 – Cloud Monitoring,cloud security
+doc_605,Are alert thresholds tuned to minimize false positives?,27017 – Cloud Monitoring,cloud security
+doc_606,Are cloud workload baselines defined?,27017 – Cloud Configuration Management,cloud security
+doc_607,Are cloud configurations aligned with CIS or CSP benchmarks?,27017 – Cloud Configuration Management,"cloud security, cloud configuration, configuration review, security benchmarks"
+doc_608,Are misconfigurations automatically flagged?,27017 – Cloud Configuration Management,"cloud configuration, misconfiguration detection, monitoring tools, alerting, configuration review"
+doc_609,Are remediation steps automated when possible?,27017 – Cloud Configuration Management,"cloud security, governance, compliance, risk management"
+doc_610,Are configuration drifts monitored and corrected?,27017 – Cloud Configuration Management,cloud security
+doc_611,Does the CSP provide vulnerability scanning information for underlying infrastructure?,27017 – Cloud Vulnerability Management,"cloud security, governance, compliance, risk management"
+doc_612,Are customer-managed cloud assets included in vulnerability scans?,27017 – Cloud Vulnerability Management,"cloud configuration, compliance monitoring, security scanning"
+doc_613,Are cloud vulnerabilities categorized based on severity?,27017 – Cloud Vulnerability Management,cloud security
+doc_614,Is patching responsibility divided clearly between CSP and CSC?,27017 – Cloud Vulnerability Management,"patching responsibilities, responsibility division, CSP-CSC roles"
+doc_615,Are container and VM images scanned before deployment?,27017 – Cloud Vulnerability Management,"vulnerability scanning, container security, image scanning, pre-deployment checks"
+doc_616,Are access logs for cloud consoles reviewed regularly?,27017 – Cloud Access Monitoring,"cloud security, review process, change management, log review"
+doc_617,Are failed authentication attempts analyzed for brute-force indicators?,27017 – Cloud Access Monitoring,cloud security
+doc_618,Are privileged API calls logged and reviewed?,27017 – Cloud Access Monitoring,"cloud security, governance, compliance, risk management"
+doc_619,Are long-lived cloud credentials prohibited or monitored?,27017 – Cloud Access Monitoring,"long-lived credentials, cloud credentials, credential management"
+doc_620,Are temporary tokens tracked for misuse?,27017 – Cloud Access Monitoring,"cloud security, governance, compliance, risk management"
+doc_621,Are encryption responsibilities clearly divided between CSP and CSC?,27017 – Encryption Responsibilities,"defined responsibilities, CSP-CSC roles, cloud security"
+doc_622,Does the customer manage customer-managed keys (CMK) securely?,27017 – Encryption Responsibilities,"customer-managed keys, key management, encryption key security"
+doc_623,Are CSP-managed encryption options reviewed for suitability?,27017 – Encryption Responsibilities,"review process, cloud security"
+doc_624,Are encryption logs (KMS events) monitored?,27017 – Encryption Responsibilities,cloud security
+doc_625,Are encryption standards aligned with regulatory requirements?,27017 – Encryption Responsibilities,"cloud security, governance, compliance, risk management"
+doc_626,Are cloud data loss prevention (DLP) policies implemented?,27017 – Cloud Data Protection,cloud security
+doc_627,Are cloud storage objects scanned for sensitive data exposure?,27017 – Cloud Data Protection,cloud security
+doc_628,Are data exfiltration alerts configured?,27017 – Cloud Data Protection,cloud security
+doc_629,Are cloud retention policies aligned with corporate policies?,27017 – Cloud Data Protection,"cloud security, cloud retention, policy alignment, compliance requirements"
+doc_630,Is sensitive cloud data tokenized or anonymized where necessary?,27017 – Cloud Data Protection,cloud security
+doc_631,Does the CSP notify customers of security incidents promptly?,27017 – CSP Notification Obligations,"incident notification, customer notification, SLA commitments, security incidents"
+doc_632,Are notification timelines defined contractually?,27017 – CSP Notification Obligations,"cloud security, governance, compliance, risk management"
+doc_633,Are multi-tenant incident impacts assessed and communicated?,27017 – CSP Notification Obligations,"cloud security, governance, compliance, risk management"
+doc_634,Are customers given sufficient incident details for local response?,27017 – CSP Notification Obligations,"cloud security, governance, compliance, risk management"
+doc_635,Does the CSP provide incident post-mortems?,27017 – CSP Notification Obligations,"incident analysis, root-cause analysis, post-incident review"
+doc_636,Is cloud compliance continuously monitored using automation?,27017 – Continuous Cloud Compliance,"cloud configuration, compliance monitoring, security scanning"
+doc_637,"Are compliance checks mapped to frameworks (ISO, SOC, PCI)?",27017 – Continuous Cloud Compliance,"cloud security, governance, compliance, risk management"
+doc_638,Are high-risk findings remediated within policy timeframes?,27017 – Continuous Cloud Compliance,"approval workflows, risk management, policy compliance"
+doc_639,Are compliance dashboards maintained?,27017 – Continuous Cloud Compliance,"cloud configuration, compliance monitoring, security scanning"
+doc_640,Are CSP compliance updates reviewed annually?,27017 – Continuous Cloud Compliance,"annual review, CSP compliance, audit updates"
+doc_641,Are cloud service SLAs reviewed for uptime guarantees?,27017 – Cloud SLA Management,"cloud service, service availability, SLAs, uptime guarantees, cloud security"
+doc_642,Are SLA breaches documented and escalated?,27017 – Cloud SLA Management,"cloud security, governance, compliance, risk management"
+doc_643,Are performance metrics monitored against SLAs?,27017 – Cloud SLA Management,cloud security
+doc_644,Are financial penalties or remedies defined for SLA breaches?,27017 – Cloud SLA Management,"cloud security, governance, compliance, risk management"
+doc_645,Are CSP SLA reports validated for accuracy?,27017 – Cloud SLA Management,cloud security
+doc_646,Are CSP technical documentation and guides available to customers?,27017 – CSP Transparency,"customer access, technical documentation, CSP documentation, System architecture, Customer access"
+doc_647,Does the CSP disclose locations of data centers?,27017 – CSP Transparency,"data location transparency, data center locations, geographic data storage"
+doc_648,Are CSP architectural overviews accessible to customers?,27017 – CSP Transparency,"customer access, technical documentation, CSP documentation, System architecture, Customer access"
+doc_649,Are updates to CSP infrastructure communicated proactively?,27017 – CSP Transparency,"customer notification, CSP communications, service change communication, infrastructure changes, change communication, infrastructure updates"
+doc_650,Does the CSP disclose use of subcontractors and subprocessors?,27017 – CSP Transparency,"subcontractor disclosure, subprocessor disclosure, CSP transparency, third-party providers"
