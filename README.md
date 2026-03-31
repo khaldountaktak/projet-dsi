@@ -317,3 +317,4 @@ prjt_vap/
 - **Cypher** : Langage de requêtes
 - **Détection NLP** : Extraction automatique de labels
 - **Ollama** : LLM local gratuit (Mistral)
+# questionnaire-generation
